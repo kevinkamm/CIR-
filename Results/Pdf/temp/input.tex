@@ -1,0 +1,68 @@
+\section{CIR- model}
+\subsection{Calibration Parameters}
+	\input{CIRParam/cirParam.tex}
+	\cirParamTableA\hfill\\
+	\cirErrorTableA\hfill\\
+\subsection{Model Parameters}
+	\input{ModelParam/modelParam.tex}
+	\modelParamTableA
+\subsection{Euler Parameter}
+	\input{Euler/euler.tex}
+	\eulerParamA
+\subsection{Computational Times}
+	\input{CompTimes/ctime.tex}
+	\ctimeA
+\hfill\\
+	\input{CompTimes/ctimeTests.tex}
+	\ctimeTestsA
+\subsection{Mean errors of Discount Factor}
+	\input{DF/dfMeanErr.tex}
+\begin{table}
+	\dfMeanErrA
+\centering
+\caption{Market data containing the zero rate curve and zero coupon curve at 30/12/2019.}
+\label{tab:market_dataA}
+\end{table}
+\subsection{Errors of Swaption}
+	\input{Swaption/swaption.tex}
+\begin{table}
+	\errorSwaptionA
+\centering
+\caption{Swaption error for data at 30/12/2019.}
+\label{tab:swaption_errorA}
+\end{table}
+\subsection{Plots of Zero Coupon Prices}
+	\input{ZC/figure.tex}
+\subsection{Plots of Discount Factor}
+	\input{DF/figure.tex}
+\subsection{Plots of Interest Rates}
+	\input{Rates/figure.tex}
+\subsection{Plots of theoretical Mean and Variance}
+	\input{MeanVar/figure.tex}
+\subsection{Plots of Forward Zero-Coupon Prices}
+	\input{Forward/figure.tex}
+\appendix
+\section{Market Data}
+	\input{MarketData/marketData.tex}
+\begin{table}
+	\marketDataA
+\centering
+\caption{Market data containing the zero rate curve and zero coupon curve at 30/12/2019.}
+\label{tab:market_dataA}
+\end{table}
+\section{Market Data}
+	\input{MarketData/swaptionStrike.tex}
+\begin{table}
+	\strikeSwaptionA
+\centering
+\caption{Market data containing the swaption strikes at 30/12/2019.}
+\label{tab:strike_swaptionA}
+\end{table}
+\section{Market Data}
+	\input{MarketData/swaptionMarket.tex}
+\begin{table}
+	\marketSwaptionA
+\centering
+\caption{Market data containing the swaption prices at 30/12/2019.}
+\label{tab:market_swaptionA}
+\end{table}
